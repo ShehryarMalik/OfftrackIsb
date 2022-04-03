@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8561124556446086940
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8561124556446086941}
+  - component: {fileID: 8561124556446086915}
+  - component: {fileID: 8561124556446086914}
+  - component: {fileID: 8561124556446086943}
+  m_Layer: 0
+  m_Name: DialogueManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8561124556446086941
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8561124556446086940}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 498.29108, y: 494.87146, z: 96.05054}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8561124556446086915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8561124556446086940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53128dccfc2d38488308e76f4b53a58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 0}
+  dialogueText: {fileID: 0}
+  avatarImage: {fileID: 0}
+  textSpeed: 0.01
+  dialogueBox: {fileID: 0}
+--- !u!114 &8561124556446086914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8561124556446086940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48024856774573e4e81703a9c0d61640, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueTest1:
+    sentenceStruct: []
+    dialogueStarted: 0
+    dialogueFinished: 0
+  dialogueTest2:
+    sentenceStruct: []
+    dialogueStarted: 0
+    dialogueFinished: 0
+  dialogueManager: {fileID: 8561124556446086915}
+--- !u!114 &8561124556446086943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8561124556446086940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 809a9353fdd25c54798613c558378610, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  introLevelStartingDialogue:
+    sentenceStruct:
+    - avatarImage: {fileID: 21300000, guid: 458cca3ecc0478549b518fda22e3f4b2, type: 3}
+      speakerName: ???
+      sentence: Like I said -
+    - avatarImage: {fileID: 21300000, guid: 458cca3ecc0478549b518fda22e3f4b2, type: 3}
+      speakerName: ???
+      sentence: It was like waking up from a nightmare!
+    - avatarImage: {fileID: 21300000, guid: 458cca3ecc0478549b518fda22e3f4b2, type: 3}
+      speakerName: ???
+      sentence: I was there suddenly. In a room
+    - avatarImage: {fileID: 21300000, guid: 64a697fa860f93f44aee459b7d0ca7f7, type: 3}
+      speakerName: ???
+      sentence: ..with two dead bodies.
+    dialogueStarted: 0
+    dialogueFinished: 0
+  introLevelDeadBody1Dialogue:
+    sentenceStruct:
+    - avatarImage: {fileID: 21300000, guid: 458cca3ecc0478549b518fda22e3f4b2, type: 3}
+      speakerName: ???
+      sentence: I don't know who they were..
+    - avatarImage: {fileID: 21300000, guid: 458cca3ecc0478549b518fda22e3f4b2, type: 3}
+      speakerName: ???
+      sentence: But seeing so much blood.. I r-really don't to go through this again.
+    - avatarImage: {fileID: 21300000, guid: 1cc41b52316be7e4b93a5b229b7346fe, type: 3}
+      speakerName: ???
+      sentence: Calm down Eman..
+    - avatarImage: {fileID: 21300000, guid: 1cc41b52316be7e4b93a5b229b7346fe, type: 3}
+      speakerName: ???
+      sentence: This will help us more than you can imagine. Everything will make
+        sense soon. I will help you remember.
+    - avatarImage: {fileID: 21300000, guid: 458cca3ecc0478549b518fda22e3f4b2, type: 3}
+      speakerName: Eman
+      sentence: W-who are you again?
+    - avatarImage: {fileID: 21300000, guid: 1cc41b52316be7e4b93a5b229b7346fe, type: 3}
+      speakerName: Strange Bushra
+      sentence: Bushra.. Call me Strange Bushra. Adding something weird to things
+        makes it easier to remember!
+    - avatarImage: {fileID: 21300000, guid: 458cca3ecc0478549b518fda22e3f4b2, type: 3}
+      speakerName: Eman
+      sentence: ..
+    - avatarImage: {fileID: 21300000, guid: 1cc41b52316be7e4b93a5b229b7346fe, type: 3}
+      speakerName: Strange Bushra
+      sentence: Carry on. What did you do next?
+    dialogueStarted: 0
+    dialogueFinished: 0
+  introLevelDeadBody2Dialogue:
+    sentenceStruct:
+    - avatarImage: {fileID: 21300000, guid: 458cca3ecc0478549b518fda22e3f4b2, type: 3}
+      speakerName: Eman
+      sentence: There was a gun besides the 2nd body
+    - avatarImage: {fileID: 21300000, guid: 458cca3ecc0478549b518fda22e3f4b2, type: 3}
+      speakerName: Eman
+      sentence: Maybe someone shot them
+    - avatarImage: {fileID: 21300000, guid: 1cc41b52316be7e4b93a5b229b7346fe, type: 3}
+      speakerName: Strange Bushra
+      sentence: ..maybe you?
+    - avatarImage: {fileID: 21300000, guid: 64a697fa860f93f44aee459b7d0ca7f7, type: 3}
+      speakerName: Eman
+      sentence: What!?
+    - avatarImage: {fileID: 21300000, guid: 64a697fa860f93f44aee459b7d0ca7f7, type: 3}
+      speakerName: Eman
+      sentence: No! I mean I know I don't remember anything but I know I can't kill
+        anyone. Even if it was to save my own life!
+    - avatarImage: {fileID: 21300000, guid: 1cc41b52316be7e4b93a5b229b7346fe, type: 3}
+      speakerName: Strange Bushra
+      sentence: 'Ok.. Ok just stay calm. Did you grab the gun? '
+    - avatarImage: {fileID: 21300000, guid: 458cca3ecc0478549b518fda22e3f4b2, type: 3}
+      speakerName: Eman
+      sentence: No.. no I didn't know what to think. I just wanted to get out of
+        there as fast as I can!
+    - avatarImage: {fileID: 21300000, guid: 458cca3ecc0478549b518fda22e3f4b2, type: 3}
+      speakerName: Strange Bushra
+      sentence: bad move
+    dialogueStarted: 0
+    dialogueFinished: 0
+  introLevelDoorBeforeDialogue:
+    sentenceStruct:
+    - avatarImage: {fileID: 21300000, guid: 458cca3ecc0478549b518fda22e3f4b2, type: 3}
+      speakerName: Eman
+      sentence: Wait.. I don't think I left the room yet
+    dialogueStarted: 0
+    dialogueFinished: 0
+  introLevelDoorAfterDialogue:
+    sentenceStruct:
+    - avatarImage: {fileID: 21300000, guid: 64a697fa860f93f44aee459b7d0ca7f7, type: 3}
+      speakerName: Eman
+      sentence: T-there was something..
+    - avatarImage: {fileID: 21300000, guid: 64a697fa860f93f44aee459b7d0ca7f7, type: 3}
+      speakerName: Eman
+      sentence: Someone moving inside the closet!
+    dialogueStarted: 0
+    dialogueFinished: 0
+  dialogueManager: {fileID: 8561124556446086915}
